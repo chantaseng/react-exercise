@@ -195,7 +195,30 @@ const pagesRange = pages > 1000 ? 'over a thousand' : 'less than a 1000';
 pagesRange;
 console.log(`The book has ${pagesRange} pages`);
 
-// Arrow function
-// function getYear(str) {
-//   return str.split('-')[0];
-// }
+// Short circuiting and logical operator
+
+// && operator
+console.log(true && 'some string');
+console.log(false && 'some string');
+console.log(hasMovieAdaptation && 'this book is a movie');
+
+// falsy: 0, '', null, undefined
+console.log('jonas' && 'some string');
+console.log(0 && 'some string');
+
+// or operator
+console.log(true || 'some string');
+console.log(false || 'some string');
+
+console.log(book.translations.spanish);
+
+const spanishTranslation = book.translations.spanish || 'NOT TRANSLATED';
+console.log(spanishTranslation);
+
+console.log(book.reviews.librarything.reviewsCount);
+const countWrong = book.reviews.librarything.reviewsCount || 'NO DATA';
+console.log(countWrong);
+
+// nullish coalescent operator
+const count = book.reviews.librarything.reviewsCount ?? 'no data';
+console.log(count);
