@@ -28,7 +28,7 @@ function Intro() {
       <p>
         Front-end web developer who just graduated from Le Wagon Montreal. When
         not coding, I like to go on dates with my wife and dog, Alto or browse
-        to ebay to grow my money collection.
+        on ebay to grow my money collection.
       </p>
     </div>
   );
