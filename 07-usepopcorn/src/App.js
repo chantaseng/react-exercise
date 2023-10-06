@@ -69,6 +69,17 @@ export default function App() {
           <WatchedSummary watched={watched} />
           <WatchedMoviesList watched={watched} />
         </Box>
+
+        {/* ALTERNATIVE: Passing element as props (instead of children) */}
+        {/* <Box element={<MovieList movies={movies} />} />
+        <Box
+          element={
+            <>
+              <WatchedSummary watched={watched} />
+              <WatchedMoviesList watched={watched} />
+            </>
+          }
+        /> */}
       </Main>
     </>
   );
