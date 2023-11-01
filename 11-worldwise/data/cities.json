@@ -35,6 +35,54 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Huparlac",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-11-01T20:44:28.418Z",
+      "notes": "test",
+      "position": {
+        "lat": "44.699894858225974",
+        "lng": "2.785779591835467"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Huparlac",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-11-01T20:44:28.418Z",
+      "notes": "test",
+      "position": {
+        "lat": "44.699894858225974",
+        "lng": "2.785779591835467"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Had Kourt",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2023-11-01T20:47:04.630Z",
+      "notes": "cvxv",
+      "position": {
+        "lat": "34.52472871749244",
+        "lng": "-5.670132610881312"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Celorico da Beira",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2023-11-01T20:54:14.961Z",
+      "notes": "",
+      "position": {
+        "lat": "40.66456534006437",
+        "lng": "-7.361433492940646"
+      },
+      "id": 98443201
     }
   ]
 }
