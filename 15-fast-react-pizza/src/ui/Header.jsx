@@ -9,7 +9,7 @@ function Header() {
         Fast React Pizza Co.
       </Link>
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
         <SearchOrder />
         <Username />
       </div>
