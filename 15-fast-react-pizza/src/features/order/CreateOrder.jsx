@@ -44,7 +44,7 @@ function CreateOrder() {
   // const [withPriority, setWithPriority] = useState(false);
   const cart = fakeCart;
 
-  const capitalizeUsername = username[0].toUpperCase() + username.slice(1);
+  // const capitalizeUsername = username[0].toUpperCase() + username.slice(1);
 
   return (
     <div className="px-4 py-6">
@@ -59,7 +59,7 @@ function CreateOrder() {
             className="input grow"
             type="text"
             name="customer"
-            defaultValue={capitalizeUsername}
+            defaultValue={username}
             required
           />
         </div>
